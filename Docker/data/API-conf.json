@@ -1,7 +1,7 @@
 {
-    "db_server": "db",
-    "db_username": "root",
-    "db_password": "example",
-    "db_name": "API",
+    "server": "db",
+    "username": "root",
+    "password": "example",
+    "database": "API",
     "base_path": "/"
 }
