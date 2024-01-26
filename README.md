@@ -7,8 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="#requirements">Requirements</a> •
-  <a href="#installation">Install</a> •
+  <a href="#installing">Install</a> •
   <a href="#usage">Usage</a> •
   <a href="#auth">Auth</a> •
   <a href="#folder">Folder</a> •
@@ -319,58 +318,5 @@ docker compose up -d
 ```
 > [!NOTE]\
 > Assuming you have installed docker.
----
-## Current Directory Mapping
-```
-.
-├── Code
-│   ├── api
-│   │   ├── REST.api.php
-│   │   ├── apis
-│   │   │   ├── auth
-│   │   │   │   ├── current.php
-│   │   │   │   ├── login.php
-│   │   │   │   ├── refresh.php
-│   │   │   │   └── signup.php
-│   │   │   ├── folder
-│   │   │   │   ├── delete.php
-│   │   │   │   ├── get_all_notes.php
-│   │   │   │   ├── list.php
-│   │   │   │   ├── new.php
-│   │   │   │   └── rename.php
-│   │   │   └── notes
-│   │   │       ├── delete.php
-│   │   │       ├── edit.php
-│   │   │       ├── get.php
-│   │   │       └── new.php
-│   │   ├── index.php
-│   │   └── lib
-│   │       ├── Auth.class.php
-│   │       ├── Database.class.php
-│   │       ├── Folder.class.php
-│   │       ├── Notes.class.php
-│   │       ├── OAuth.class.php
-│   │       ├── Share.class.php
-│   │       ├── Signup.class.php
-│   │       └── User.class.php
-│   ├── call.php
-│   ├── database
-│   │   └── export.sql
-│   ├── hash.php
-│   ├── index.php
-│   ├── pass.php
-│   ├── sg.php
-│   └── verify.php
-├── Docker
-│   ├── Dockerfile
-│   └── data
-│       ├── API-conf.json
-│       ├── main.conf
-│       └── main.sh
-├── README.md
-└── docker-compose.yml
-
-11 directories, 36 files
-```
 ---
 Made with 💙 by vignesh sb.
