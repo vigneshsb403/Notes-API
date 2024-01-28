@@ -2,8 +2,10 @@
 
 <p align="center">
 <a href="https://twitter.com/sbvignesh"><img src="https://img.shields.io/twitter/follow/sbvignesh.svg?logo=twitter"></a>
-<a href="https://github.com/vigneshsb403/ARP-Tools/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/vigneshsb403/Notes-API/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
 <a href="https://restfulapi.net"><img src="https://img.shields.io/badge/REST%20API-8A2BE2"></a>
+<a href="https://api.vigneshsb.fun"><img src="https://img.shields.io/badge/Website-00CF71"></a>
+
 </p>
 
 <p align="center">
@@ -17,15 +19,26 @@
 <br>
 <br>
 
+# Installing
+First clone the repo
+```
+git clone https://github.com/vigneshsb403/Notes-API/
+```
+then run the below commands:
+```
+cd Notes-API
+docker compose build
+docker compose up -d
+```
+> [!NOTE]\
+> Assuming you have installed docker.
+
 # Usage
-
 To test if every thing is working
-
 Request:
 ```bash
 curl --location --request POST 'http://localhost/api/test'
 ```
-
 Response:
 ```json
 {
@@ -305,18 +318,6 @@ Response:
     "message": "success"
 }
 ```
-# Installing
-First clone the repo
-```
-git clone https://github.com/vigneshsb403/Notes-API/
-```
-then run the below commands:
-```
-cd Notes-API
-docker compose build
-docker compose up -d
-```
-> [!NOTE]\
-> Assuming you have installed docker.
+
 ---
 Made with 💙 by vignesh sb.
